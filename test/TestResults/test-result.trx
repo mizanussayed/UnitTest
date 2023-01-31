@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9635335c-4621-44af-a24b-162d427366f0" name="mrahm@MRAHMAN 2023-02-01 00:16:34" runUser="MRAHMAN\mrahm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-02-01T00:16:34.4359455+06:00" queuing="2023-02-01T00:16:34.4359457+06:00" start="2023-02-01T00:16:13.3367587+06:00" finish="2023-02-01T00:16:34.4740409+06:00" />
+  <TestSettings name="default" id="45828358-9e4a-4570-8b97-9b04ff800b14">
+    <Deployment runDeploymentRoot="mrahm_MRAHMAN_2023-02-01_00_16_34" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="aa1054f9-dd0d-492b-b35b-003c2a039b38" testId="87ace73e-fb2c-00e9-80d1-2d36f5d2e2ad" testName="ApiTest.StudentControllerTest.Update_ReturnNoContent" computerName="MRAHMAN" duration="00:00:00.0014729" startTime="2023-02-01T00:16:34.0631439+06:00" endTime="2023-02-01T00:16:34.0631441+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa1054f9-dd0d-492b-b35b-003c2a039b38" />
+    <UnitTestResult executionId="73b90825-4b28-40b1-8181-c7ec9d124e43" testId="03680e6a-a820-608c-9c4a-5f55b9c2cef1" testName="ApiTest.StudentControllerTest.Create_ReturnOkResult" computerName="MRAHMAN" duration="00:00:00.0255788" startTime="2023-02-01T00:16:34.0600418+06:00" endTime="2023-02-01T00:16:34.0600421+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73b90825-4b28-40b1-8181-c7ec9d124e43" />
+    <UnitTestResult executionId="6d3bf877-36b3-4705-a0e0-364c8be32b44" testId="d53365a6-eedf-5d87-fa63-3e85998be06b" testName="ApiTest.StudentControllerTest.GetById_ReturnOK_NotFoundResult" computerName="MRAHMAN" duration="00:00:00.0076778" startTime="2023-02-01T00:16:34.0358013+06:00" endTime="2023-02-01T00:16:34.0358015+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d3bf877-36b3-4705-a0e0-364c8be32b44" />
+    <UnitTestResult executionId="635d9a7f-83dd-48fd-85a1-000304564709" testId="4ea2c96c-a781-3aa3-5046-1b5e692b922c" testName="ApiTest.StudentControllerTest.GetAll_ReturnOKResult" computerName="MRAHMAN" duration="00:00:00.6781487" startTime="2023-02-01T00:16:34.0274468+06:00" endTime="2023-02-01T00:16:34.0275416+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="635d9a7f-83dd-48fd-85a1-000304564709" />
+    <UnitTestResult executionId="e0c4de98-8601-408e-b96f-edd252d66737" testId="40243706-78aa-da3e-b055-2f44742a9a46" testName="ApiTest.StudentControllerTest.Delete_ReturnNoContent" computerName="MRAHMAN" duration="00:00:00.0013185" startTime="2023-02-01T00:16:34.0614953+06:00" endTime="2023-02-01T00:16:34.0614955+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0c4de98-8601-408e-b96f-edd252d66737" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ApiTest.StudentControllerTest.Delete_ReturnNoContent" storage="e:\csharpbasic\unittest\test\bin\debug\net7.0\apitest.dll" id="40243706-78aa-da3e-b055-2f44742a9a46">
+      <Execution id="e0c4de98-8601-408e-b96f-edd252d66737" />
+      <TestMethod codeBase="E:\CSharpBasic\UnitTest\test\bin\Debug\net7.0\ApiTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApiTest.StudentControllerTest" name="Delete_ReturnNoContent" />
+    </UnitTest>
+    <UnitTest name="ApiTest.StudentControllerTest.GetAll_ReturnOKResult" storage="e:\csharpbasic\unittest\test\bin\debug\net7.0\apitest.dll" id="4ea2c96c-a781-3aa3-5046-1b5e692b922c">
+      <Execution id="635d9a7f-83dd-48fd-85a1-000304564709" />
+      <TestMethod codeBase="E:\CSharpBasic\UnitTest\test\bin\Debug\net7.0\ApiTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApiTest.StudentControllerTest" name="GetAll_ReturnOKResult" />
+    </UnitTest>
+    <UnitTest name="ApiTest.StudentControllerTest.Update_ReturnNoContent" storage="e:\csharpbasic\unittest\test\bin\debug\net7.0\apitest.dll" id="87ace73e-fb2c-00e9-80d1-2d36f5d2e2ad">
+      <Execution id="aa1054f9-dd0d-492b-b35b-003c2a039b38" />
+      <TestMethod codeBase="E:\CSharpBasic\UnitTest\test\bin\Debug\net7.0\ApiTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApiTest.StudentControllerTest" name="Update_ReturnNoContent" />
+    </UnitTest>
+    <UnitTest name="ApiTest.StudentControllerTest.Create_ReturnOkResult" storage="e:\csharpbasic\unittest\test\bin\debug\net7.0\apitest.dll" id="03680e6a-a820-608c-9c4a-5f55b9c2cef1">
+      <Execution id="73b90825-4b28-40b1-8181-c7ec9d124e43" />
+      <TestMethod codeBase="E:\CSharpBasic\UnitTest\test\bin\Debug\net7.0\ApiTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApiTest.StudentControllerTest" name="Create_ReturnOkResult" />
+    </UnitTest>
+    <UnitTest name="ApiTest.StudentControllerTest.GetById_ReturnOK_NotFoundResult" storage="e:\csharpbasic\unittest\test\bin\debug\net7.0\apitest.dll" id="d53365a6-eedf-5d87-fa63-3e85998be06b">
+      <Execution id="6d3bf877-36b3-4705-a0e0-364c8be32b44" />
+      <TestMethod codeBase="E:\CSharpBasic\UnitTest\test\bin\Debug\net7.0\ApiTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ApiTest.StudentControllerTest" name="GetById_ReturnOK_NotFoundResult" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="87ace73e-fb2c-00e9-80d1-2d36f5d2e2ad" executionId="aa1054f9-dd0d-492b-b35b-003c2a039b38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03680e6a-a820-608c-9c4a-5f55b9c2cef1" executionId="73b90825-4b28-40b1-8181-c7ec9d124e43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d53365a6-eedf-5d87-fa63-3e85998be06b" executionId="6d3bf877-36b3-4705-a0e0-364c8be32b44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ea2c96c-a781-3aa3-5046-1b5e692b922c" executionId="635d9a7f-83dd-48fd-85a1-000304564709" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40243706-78aa-da3e-b055-2f44742a9a46" executionId="e0c4de98-8601-408e-b96f-edd252d66737" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 7.0.2)&#xD;
+[xUnit.net 00:00:09.66]   Discovering: ApiTest&#xD;
+[xUnit.net 00:00:09.77]   Discovered:  ApiTest&#xD;
+[xUnit.net 00:00:09.77]   Starting:    ApiTest&#xD;
+[xUnit.net 00:00:10.62]   Finished:    ApiTest&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
